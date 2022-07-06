@@ -1,0 +1,17 @@
+POST http://localhost:3000/api/courses
+Content-Type: application/json
+
+{
+    "name":"Computer Science",
+    "category": "Mobile",
+    "author": "Ayo",
+    "tags": ["Python", "backend"],
+    "isPublished": true,
+    "price": 50
+}
+
+###
+GET http://localhost:3000/api/courses
+
+###
+GET http://localhost:3000
